@@ -14,7 +14,7 @@
 
 #include <linux/device.h>
 #include <linux/tracepoint.h>
-#include <linux/types.h>
+#include <linux/types.h> 
 
 DECLARE_EVENT_CLASS(devres,
 	TP_PROTO(struct device *dev, const char *op, void *node, const char *name, size_t size),

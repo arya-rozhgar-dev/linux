@@ -8,11 +8,11 @@
  *  Copyright (C) Samuel Thibault <samuel.thibault@ens-lyon.org>
  */
 
-#include <linux/kernel.h>
+#include <linux/kernel.h> 
 #include <linux/module.h>
 #include <linux/moduleparam.h>
 #include <linux/console.h>
-#include <linux/notifier.h>
+#include <linux/notifier.h> 
 
 #include <linux/selection.h>
 #include <linux/vt_kern.h>

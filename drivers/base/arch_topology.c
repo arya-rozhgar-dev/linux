@@ -6,7 +6,7 @@
  * Written by: Juri Lelli, ARM Ltd.
  */
 
-#include <linux/acpi.h>
+#include <linux/acpi.h> 
 #include <linux/cacheinfo.h>
 #include <linux/cleanup.h>
 #include <linux/cpu.h>

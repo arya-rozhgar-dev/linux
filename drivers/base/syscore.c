@@ -9,7 +9,7 @@
 #include <linux/mutex.h>
 #include <linux/module.h>
 #include <linux/suspend.h>
-#include <trace/events/power.h>
+#include <trace/events/power.h> 
 
 static LIST_HEAD(syscore_list);
 static DEFINE_MUTEX(syscore_lock);

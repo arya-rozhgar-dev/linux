@@ -8,7 +8,7 @@
  * Copyright (c) 2007 Novell Inc.
  */
 #include <linux/kobject.h>
-#include <linux/module.h>
+#include <linux/module.h> 
 #include <linux/init.h>
 #include <linux/device.h>
 

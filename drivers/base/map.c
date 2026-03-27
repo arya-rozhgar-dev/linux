@@ -13,7 +13,7 @@
 #include <linux/slab.h>
 #include <linux/mutex.h>
 #include <linux/kdev_t.h>
-#include <linux/kobject.h>
+#include <linux/kobject.h> 
 #include <linux/kobj_map.h>
 
 struct kobj_map {
