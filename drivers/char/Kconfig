@@ -397,4 +397,12 @@ config ADI
 	  and SSM (Silicon Secured Memory).  Intended consumers of this
 	  driver include crash and makedumpfile.
 
+config DEVP_APP_BRIDGE
+	tristate "Application Bootstrapping Kernel Bridge Support"
+	default y
+	help
+	  This option enables a custom character device bridge (/dev/app_bridge)
+	  allowing user-space applications to communicate directly with
+	  dedicated kernel memory space vectors. If unsure, say Y.
+
 endmenu
